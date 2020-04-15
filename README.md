@@ -4,11 +4,9 @@ Sails tooling for vscode
 
 ## Features
 
-* Intellisense
+- Commands to get to Sails docs
 
 > A brief demo of sailboat
-
-
 
 ## Release Notes
 
