@@ -1,28 +1,15 @@
 import * as vscode from "vscode";
-
+import { docsLinks } from "./docsLinks";
 export function activate(context: vscode.ExtensionContext) {
   console.log('Congratulations, your extension "sailboat" is now active!');
 
-  let openSailsCoreConcepts = vscode.commands.registerCommand(
-    "sailboat.openSailsCoreConcepts",
-    () => {
-      vscode.env.openExternal(
-        vscode.Uri.parse("https://sailsjs.com/documentation/concepts")
-      );
-    }
-  );
-
-  let openSailsAPIReference = vscode.commands.registerCommand(
-    "sailboat.openSailsAPIReference",
-    () => {
-      vscode.env.openExternal(
-        vscode.Uri.parse("https://sailsjs.com/documentation/reference")
-      );
-    }
-  );
-
-  context.subscriptions.push(openSailsCoreConcepts);
-  context.subscriptions.push(openSailsAPIReference);
+  // Getting a list of commands(these open links to the Sails docs)
+  docsLinks.map((docsLink) => {
+    let disposable = vscode.commands.registerCommand(docsLink.command, () => {
+      vscode.env.openExternal(vscode.Uri.parse(docsLink.url));
+    });
+    context.subscriptions.push(disposable);
+  });
 }
 
 export function deactivate() {}
