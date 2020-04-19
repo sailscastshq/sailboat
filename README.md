@@ -6,12 +6,22 @@ Sails tooling for vscode
 
 - Commands to get to Sails docs
 
-> A brief demo of sailboat
+### Coming Soon
+
+- Jump to Action
+- Jump to helper
+- Intellisense
+
+### Accessing Sailboat commands
+
+Press ctrl + shift + p or cmd + shift + p to access VSCode command pallette. Then type 'sailboat' to see the list of available commands
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### v0.0.1
 
-### 0.0.1
+Initial release of sailboat supporting with a few commands
 
-Initial release of sailboat supporting intellisense for Sails project
+### v0.0.2
+
+More commands added and refactoring

@@ -26,8 +26,12 @@
         "title": "Sailboat: Open Sails Core Concepts"
       },
       {
-        "command": "sailboat.openSailsAPIReference",
-        "title": "Sailboat: Open Sails API Reference"
+        "command": "sailboat.openSailsModelsAPIReference",
+        "title": "Sailboat: Open Sails Models API Reference"
+      },
+      {
+        "command": "sailboat.openSailsConfigurationAPIReference",
+        "title": "Sailboat: Open Sails Configuration API Reference"
       }
     ]
   },
