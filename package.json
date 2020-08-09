@@ -2,7 +2,7 @@
   "name": "sailboat",
   "displayName": "Sailboat",
   "description": "Sails tooling for vscode.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "dominuskelvin",
   "engines": {
     "vscode": "^1.44.0"
@@ -32,6 +32,18 @@
       {
         "command": "sailboat.openSailsConfigurationAPIReference",
         "title": "Sailboat: Open Sails Configuration API Reference"
+      },
+      {
+        "command": "sailboat.liftSails",
+        "title": "Sailboat: Lift Sails"
+      },
+      {
+        "command": "sailboat.liftSailsVerbose",
+        "title": "Sailboat: Lift Sails with verbose flag"
+      },
+      {
+        "command": "sailboat.liftSailsSilly",
+        "title": "Sailboat: Lift Sails with silly flag"
       }
     ]
   },
