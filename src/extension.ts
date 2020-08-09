@@ -5,7 +5,7 @@ import { getFilePath } from './util';
 import { LinkProvider } from './link';
 
 export function activate(context: vscode.ExtensionContext) {
-  console.log('Congratulations, your extension "sailboat" is now active!');
+  console.log('Sailboat is active now ⛵');
 
   // Getting a list of commands(these open links to the Sails docs)
   docsLinks.map((docsLink) => {
