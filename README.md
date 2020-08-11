@@ -27,6 +27,6 @@ Press ctrl + shift + p or cmd + shift + p to access VSCode command pallette. The
 
 ## License
 
-This theme is released under the [MIT License](https://github.com/DominusKelvin/sailboat/blob/master/LICENSE.md).
+Sailboat is released under the [MIT License](https://github.com/DominusKelvin/sailboat/blob/master/LICENSE.md).
 
 Created by **[DominusKelvin](https://github.com/DominusKelvin)** in **[Agbor, Nigeria](https://www.google.com.ng/maps/place/Agbor)**. Go follow me on **[Twitter](https://twitter.com/dominus_kelvin)**!
