@@ -2,22 +2,45 @@
   "name": "sailboat",
   "displayName": "Sailboat",
   "description": "Sails tooling for vscode.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "dominuskelvin",
+  "author": {
+    "name": "Kelvin Omereshone",
+    "email": "kelvin@kelvin.dev",
+    "url": "https://dominuskelvin.dev"
+  },
   "engines": {
     "vscode": "^1.44.0"
   },
   "categories": [
-    "Languages"
+    "Programming Languages",
+    "Other"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#071C20",
+    "theme": "light"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "sails",
+    "sailsjs",
+    "sailboat"
   ],
   "activationEvents": [
-    "onLanguage:javascript",
-    "onLanguage:typescript"
+    "onLanguage:javascript"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/DominusKelvin/sailboat"
   },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DominusKelvin/sailboat/issues",
+    "email": "kelvin@dominuskelvin.dev"
+  },
+  "homepage": "https://github.com/DominusKelvin/sailboat/blob/master/README.md",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
