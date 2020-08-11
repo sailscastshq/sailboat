@@ -19,7 +19,7 @@
   "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#071C20",
-    "theme": "light"
+    "theme": "dark"
   },
   "keywords": [
     "node",
