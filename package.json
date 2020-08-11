@@ -2,7 +2,7 @@
   "name": "sailboat",
   "displayName": "Sailboat",
   "description": "Sails tooling for vscode.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "dominuskelvin",
   "author": {
     "name": "Kelvin Omereshone",
