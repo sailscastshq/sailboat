@@ -1,21 +1,29 @@
-# sailboat README
+# Sailboat ⛵
 
-Sails tooling for vscode
+Sails tooling for vscode. I daily use Sailboat features in my workflow with [sails](https://sailsjs.com). I believe it can make you also more productive with Sails.
 
-## Features
+## Demo time 😌
+![sailboat](images/demo.gif)
+
+## Features ⌛
 - Commands to get to Sails docs
 - Commands to lift sails in all 3 modes (default, verbose and silly)
-- Jump to Action
+- Jump to Action (Ctrl|Cmd + click to navigate from a route to a respective action file.)
 
-### Coming Soon
+### Coming Soon ⏳
 - Jump to helper
 - Intellisense
 
-### Accessing Sailboat commands
-
+### Accessing Sailboat commands 💪
 Press ctrl + shift + p or cmd + shift + p to access VSCode command pallette. Then type 'sailboat' to see the list of available commands
 
-## Release Notes
+## Release Notes 📝
+
+### v0.0.4
+* House cleaning and optimization for visibility of the extension
+* Add extension icon
+* Add extension demo gif
+* Add MIT license
 
 ### v0.0.3
 * Commands to lift sails app in all 3 modes (default, verbose and silly)
