@@ -16,7 +16,6 @@ export class LinkProvider implements vscode.DocumentLinkProvider {
         for (let item of result) {
           let filePath = getFilePath(item, document);
           let splitted = item.replace(/'|"/g, "").split("/");
-          console.log(splitted);
           if (filePath !== null) {
             let start = new vscode.Position(
               line.lineNumber,

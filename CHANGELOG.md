@@ -1,4 +1,9 @@
-# v0.0.8
+# v0.0.9
+- Add command to lift Sails with silent flag
+- Add command to lift Sails in production env
+- Add command to lift Sails in staging env
+
+## v0.0.8
 - Fix issue #2
 
 ## v0.0.5

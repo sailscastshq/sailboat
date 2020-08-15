@@ -2,7 +2,7 @@
   "name": "sailboat",
   "displayName": "Sailboat",
   "description": "Sails tooling for vscode.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "dominuskelvin",
   "author": {
     "name": "Kelvin Omereshone",
@@ -67,6 +67,18 @@
       {
         "command": "sailboat.liftSailsSilly",
         "title": "Sailboat: Lift Sails with silly flag"
+      },
+      {
+        "command": "sailboat.liftSailsSilent",
+        "title": "Sailboat: Lift Sails with silent flag"
+      },
+      {
+        "command": "sailboat.liftSailsInProduction",
+        "title": "Sailboat: Lift Sails in Production env"
+      },
+      {
+        "command": "sailboat.liftSailsInStaging",
+        "title": "Sailboat: Lift Sails in Staging env"
       }
     ]
   },
