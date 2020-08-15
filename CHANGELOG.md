@@ -1,4 +1,7 @@
-# v0.0.5
+# v0.0.8
+- Fix issue #2
+
+## v0.0.5
 - Add `CHANGELOG.md`
 - Add made in Nigeria badge and more..
 - Remove release notes from `README.md`
