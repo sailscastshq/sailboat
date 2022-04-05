@@ -25,7 +25,7 @@ export function activate(context: vscode.ExtensionContext) {
             { text: liftCommand.text }
           );
         } catch (error) {
-          vscode.window.showErrorMessage(error);
+          // vscode.window.showErrorMessage(error);
         }
       }
     );
