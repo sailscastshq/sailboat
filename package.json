@@ -33,14 +33,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DominusKelvin/sailboat"
+    "url": "https://github.com/sailscastshq/sailboat"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DominusKelvin/sailboat/issues",
+    "url": "https://github.com/sailscastshq/sailboat/issues",
     "email": "kelvin@dominuskelvin.dev"
   },
-  "homepage": "https://github.com/DominusKelvin/sailboat/blob/master/README.md",
+  "homepage": "https://github.com/sailscastshq/sailboat/blob/master/README.md",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
