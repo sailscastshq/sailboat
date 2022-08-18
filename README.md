@@ -2,7 +2,7 @@
 
 [![made in nigeria](https://img.shields.io/badge/made%20in-nigeria-008751.svg?style=for-the-badge)](https://github.com/acekyd/made-in-nigeria)
 
-Sails tooling for vscode. I daily use Sailboat features in my workflow with [sails](https://sailsjs.com). I believe it can make you also more productive with Sails.
+Sailboat enhances the Sails.js development experience by providing Visual Studio Code users with advanced features such as Commands to quicly access the Sails docs, Jump to Action, and Commands to lift Sails.
 
 ## Demo time 😌
 ![sailboat](images/demo.gif)
@@ -10,7 +10,7 @@ Sails tooling for vscode. I daily use Sailboat features in my workflow with [sai
 # Installation
 
 1. Open the **Extensions** sidebar in VS Code. `View → Extensions`
-2. Search for `sailboat`, choose "Sailboat" by **Kelvin Omereshone**
+2. Search for `sailboat`, choose "Sailboat" by **The Sailscasts Company**
 3. Click **Install** to install it
 
 ## Features ⌛
@@ -27,6 +27,7 @@ Press ctrl + shift + p or cmd + shift + p to access VSCode command pallette. The
 
 ## License
 
-Sailboat is released under the [MIT License](https://github.com/DominusKelvin/sailboat/blob/master/LICENSE.md).
+Sailboat is released under the [MIT License](https://github.com/sailscastshq/sailboat/blob/master/LICENSE.md).
 
-Created by **[DominusKelvin](https://github.com/DominusKelvin)** in **[Agbor, Nigeria](https://www.google.com.ng/maps/place/Agbor)**. Go follow me on **[Twitter](https://twitter.com/dominus_kelvin)**!
+Created by **[The Sailscasts Company](https://github.com/sailscastshq)**.
+Go follow us on **[Twitter](https://twitter.com/sailscastshq)**!
