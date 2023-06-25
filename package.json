@@ -79,6 +79,10 @@
 			{
 				"command": "sailboat.liftSailsInStaging",
 				"title": "Sailboat: Lift Sails in Staging env"
+			},
+			{
+				"command": "sailboat.restartSailsServer",
+				"title": "Sailboat: Restart Sails Server"
 			}
 		]
 	},
