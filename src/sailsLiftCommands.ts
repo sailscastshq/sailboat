@@ -1,4 +1,5 @@
 const enter = "\u000D";
+const stop = "\x03";
 const liftCommand = "sails lift";
 export const sailsLiftCommands = [
   {
@@ -24,5 +25,9 @@ export const sailsLiftCommands = [
   {
     command: "sailboat.liftSailsInStaging",
     text: `${liftCommand} --staging${enter}`,
+  },
+  {
+    command: "sailboat.restartSailsServer",
+    text: `${stop}${enter}${liftCommand}${enter}`,
   },
 ];
